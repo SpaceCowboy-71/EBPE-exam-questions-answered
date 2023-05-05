@@ -12,13 +12,17 @@ _April 2023_
 
 1. **Sketch simple lab test equipment to measure the biochemical methane potential.**\
    Continuous or batch tests possible.
+
    ![Sketch of lab equipment](markdown-images/lab-equipment.png)
+
 2. **In which sectors can biogas technology be applied and what different biogas substrate types do you know?**
    - Sectors: Renewable energy, biogas as a fuel - agriculture, industry, landfill, sewage, transport
-   - Crop silage (maize, grass, rye, ...), energy crops (sunflower), organic waste from household and industry (whey, slaughterhouse), manure, sewage sludge
+   - Crop silage (maize, grass, rye, ...), energy crops (sunflower), organic waste from household and industry (whey, slaughterhouse), manure, sewage sludge, garden & park cuttings
 3. **Sketch a scheme of a biogas plant (agricultural or waste treatment) including peripheral components.**\
-   Biogas plant Strem (grass silage, corn silage):
+   Biogas plant located in Strem (grass silage, corn silage):
+
    ![Biogas plant Strem (grass silage, corn silage)](markdown-images/biogas-plant-grass-corn-silage.png)
+
 4. **What kind of benefits can biogas offer (to a company or society)?**
    - Renewable energy from waste with a high, not yet fully used potential
    - Biofuel with large GHG reduction
@@ -29,7 +33,7 @@ _April 2023_
    - Anaerobic: ~1-5 % excess sludge, ~90 % biogas (~70 % CH4, ~30 % CO2), ~5-10 % effluent\
      Methanogenesis is anaerobic, formed from acetic acid.
 6. **Describe the 4-step model of the anaerobic digestion process.**
-   - Hydrolysis: breaking down complex organic compounds to simple ones (carbohydrages, proteins, fats to sugars, amino acids, fatty acids)
+   - Hydrolysis: breaking down complex organic compounds to simple ones (carbohydrates, proteins, fats to sugars, amino acids, fatty acids)
    - Acidification: conversion of simple organic components to organic acids and alcohols, CO2, NH4 and H2
    - Acetogenesis: Conversion of organic acids to acetic acid, CO2 and H2
    - Methanogenesis: Conversion of acetic acid to methane and CO2
@@ -52,7 +56,9 @@ _April 2023_
    - Biofuel: direct use or indirectly through gas grid (large GHG reduction)
 10. **Name and sketch 1 reactor type (only reactor not including peripheral equipment) which is suitable for anaerobic wastewater treatment**\
     Membrane reactor:
+
     ![Membrane reactor](markdown-images/membrane-reactor.png)
+
 11. **Name and sketch 1 reactor type (only reactor not including peripheral equipment) which is suitable for the treatment of solid feedstocks (e.g. waste)**\
     Plug flow reactor: waste flows in, displaces digester volume, equal amount flows out. Minimal mixing, waste flows as plug. Around 15-20 days retention time. Should be cleaned routinely to prevent sediment from building up.
 
@@ -74,15 +80,15 @@ _April 2023_
 14. **Name 4 different ways how to estimate the methane yield of a specific feedstock/waste**
     - From tables/literature
     - Experiments (empirical)
-    - Theoretical calculation via COD (chemical oxygen demand - organic compounds; mass balance from $\textrm{COD}_{in}=\textrm{COD}_{out}$ with substrate and methane)
+    - Theoretical calculation via COD (chemical oxygen demand - organic compounds; mass balance from $\textrm{COD}_{\textrm{in}} = \textrm{COD}_{\textrm{out}}$ with substrate and methane)
     - Buswell equation with elementary formulae depending on feedstock composition
 
 ## Aerobic Wastewater Treatment \[Neureiter\]
 
 15. **What are the major sum parameters for the characterization of sewage and waste water? What do they measure and what are typical values?**
-    - COD - Chemical Oxygen Demand: measure of pollution with _oxidizable_ compounds [mg O2/L]
-    - BOD - Biochemical Oxygen Demand: measure of pollution with _biodegradable_ compounds [mg O2/L]; usually incubation for 5 days ($\textrm{BOD}_5$) and DO (dissolved oxygen) consumed by aerobic bacteria
-    - TOC - Total Organic Carbon: contamination with carbon (total carbon content) [mg/L]
+    - COD - Chemical Oxygen Demand: measure of pollution with _oxidizable_ compounds [mg O2/L]; can be determined using $\textrm{K}_2\textrm{Cr}_2\textrm{O}_7$ as oxidant. Household sewage ~600 mg/L.
+    - BOD - Biochemical Oxygen Demand: measure of pollution with _biodegradable_ compounds [mg O2/L]; usually incubation for 5 days ($\textrm{BOD}_5$) and DO (dissolved oxygen) consumed by aerobic bacteria. Household sewage ~300 mg/L.
+    - TOC - Total Organic Carbon: contamination of total amount of carbon in organic compounds (total carbon content) [mg/L]
     - PE - Population Equivalent: parameter for the design of WWTPs (waste water treatment plants); defined as 60 g $\textrm{BOD}_5$ and ~130 L of waste water per day
 16. **How can you measure the BOD? What do you have to consider if you have persistent substances?**\
     Dilution method: dilute sample with water containing nutrients and oxygen. Measure DO before and after incubation at $20\degree \textrm{C for 5 days (BOD}_5)$, for instance with a Clark electrode. Alternatively, measure pressure drop from consumption of oxygen.\
@@ -93,22 +99,24 @@ _April 2023_
 
 18. **Which chemolithotrophic microorganisms are of importance in biological wastewater treatment?**\
     (CO2 fixation to acquire carbon, power source are oxidizable inorganic compounds; only at low sludge loads and requires high DO.)\
-    _Nitrosomonas_ ($\textrm{NO}_2^-$ from $\textrm{NH}_4^+$) and _Nitrobacter_($\textrm{NO}_3^-$ from $\textrm{NO}_2^-$): Nitrification - conversion of $\textrm{NH}^4$ to $\textrm{NO}_2^-$ and further into $\textrm{NO}_3^-$.
+    _Nitrosomonas_ ($\textrm{NO}_2^-$ from $\textrm{NH}_4^+$) and _Nitrobacter_ ($\textrm{NO}_3^-$ from $\textrm{NO}_2^-$): Nitrification - conversion of $\textrm{NH}^4$ to $\textrm{NO}_2^-$ and further into $\textrm{NO}_3^-$.
 19. **What is the significance of protozoa in biological wastewater treatment?**\
-    10-20 % by volume of organisms in activated sludge.\
+    10-20 % by volume of organisms in activated sludge.
+
     - Elimination of particulate waste water constituents
     - Elimination of dissolved and colloidal dissolved wastewater constituents
     - Elimination of bacteria and viruses
       - increased selection pressure and reduce pathogens
       - reducing excess sludge production
     - Production of mucilaginous substances
+
 20. **What is the difference between concentration and load? Why is it important to consider the load?**\
     Concentration $c_s\enspace [\textrm{kg m}^{-3}]$ can be reduced by dilution. However: Pollution cannot be solved by dilution! This is because the Volatile Suspended Solids (VSS) load $\dot m \enspace [\textrm{kg h}^{-1}]$ stays the same!
     $$\dot m = c_s \cdot \dot V_{Fluid}$$
 
 ## Valorisation of organic wastes \[Neureiter\]
 
-21. **Explain the major differences between composting and anaerobic digestion of wastes? Which kind of wastes are more suitable for composting?**\
+21. **Explain the major differences between composting and anaerobic digestion of wastes? Which kind of wastes are more suitable for composting?**
     |Characteristics | Composting | AD|
     | -- | --- | --- |
     |Suitable wastes | Structure-rich wastes with water content <70 % | non-structured, non-woody wastes with high water content|
@@ -129,10 +137,15 @@ _April 2023_
       ![Time course of a composting process](markdown-images/time-course-composting.png)
 
 23. **Name two types of composting systems and explain how they work.**
+
     - **Drum composting**: ventilated rotating drums filled with compost. Suitable for pre-rotting, smaller plants with high mechanical wear on equipment.
+
       ![Drum composting](markdown-images/drum-composting.png)
+
     - **Windrow composting**: long rows of biodegradable matter which are regularly turned to mix moisture and temperature; open or enclosed (in a hall), passive or active aeration via tubes or regular moving.
+
       ![Windrow composting](markdown-images/windrow-composting.png)
+
 24. **Sketch a general technical procedure for bio- and green waste composting.**
 
     ![Process scheme for biowaste and green waste composting](markdown-images/process-scheme-biowaste-green-waste-composting.png)
@@ -175,7 +188,7 @@ _April 2023_
 
 28. **Sketch the process scheme of a mechanical-biological waste treatment plant.**
 
-![Process design of an MBT plant](markdown-images/process-scheme-MBT-plant.png)
+    ![Process design of an MBT plant](markdown-images/process-scheme-MBT-plant.png)
 
 ## Biological soil remediation \[Loibner\]
 
@@ -256,21 +269,29 @@ _April 2023_
 
 40. **Explain the meaning of Kd and Koc in terms of their importance for the sorption of organic pollutants in soil?**\
     Solid-water distribution coefficient:
+
     $$
     \textrm{K}_\textrm{d} = \textrm{C}_\textrm{S}/\textrm{C}_\textrm{W}
     $$
+
     Organic carbon normalized solid-water distribution coefficient:
+
     $$
     \textrm{K}_\textrm{OC} = \textrm{K}_\textrm{d}/\textrm{f}_\textrm{OC} = \textrm{C}_\textrm{OC}/\textrm{C}_\textrm{W}
     $$
+
     Chemicals associate with solid phase. This is important for bio-availability of soil contaminants. Organic matter (OM) binds pollutants - hydrophobic organic contaminants (HOC). Higher quality OM has stronger sorption strength. Hydrophobicity, reactivity and structure all impact sorption.
+
     - Adsorption: molecules adhere to 2-dimensional surfaces
     - Absorption: molecules penetrate 3-dimensional matrices
+
 41. **Provide a general description of the microbial degradation of organic pollutants at aerobic conditions?**\
     Energy produced by transferring electrons from substrate to oxygen. Contaminants (PHCs, PAHs) oxidized to $\textrm{CO}_2$ while oxygen is reduced to water. Respiration is fast & efficient. Solubility of oxygen in water can be limiting.
+
     $$
     \textrm{Organic pollutant + O}_2 \rightleftharpoons \textrm{CO}_2 + \textrm{H}_2\textrm{O}
     $$
+
 42. **Provide a general description of the microbial degradation of organic pollutants at anaerobic conditions? Which electron acceptors are used?**\
     If no molecular oxygen is available. Electron acceptors different from oxygen (with increased solubility in water, e.g. nitrate, sulfate). Degradation is usually slower than by respiration and sometimes incomplete. Halogenated hydrocarbons can also act as acceptors, and contaminants (PHCs, PAHs) are oxidized.
 43. **What are the prerequisites for microbial growth with regard to biological soil remediation?**
