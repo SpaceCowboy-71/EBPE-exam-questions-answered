@@ -93,7 +93,7 @@ _April 2023_
 16. **How can you measure the BOD? What do you have to consider if you have persistent substances?**\
     Dilution method: dilute sample with water containing nutrients and oxygen. Measure DO before and after incubation at $20\degree \textrm{C for 5 days (BOD}_5)$, for instance with a Clark electrode. Alternatively, measure pressure drop from consumption of oxygen.\
     Persistent substances can be toxic and inhibit the microorganisms. This can reduce the consumed oxygen measured.
-17. **Sketch the process diagram of an aerobic sewage treatment plant.**\
+17. **Sketch the process diagram of an aerobic sewage treatment plant.**
 
     ![Scheme of aerobic waste water treatment](markdown-images/scheme-aerobic-wwt.png)
 
@@ -446,7 +446,24 @@ _April 2023_
       - Sorption, immobilization
       - Chemical and biological stabilization
       - Volatilization (?)
-61. Calculation  
-    You will have to complete 2 calculations that may address the following topics: (i) remediation
-    period based on in-situ or laboratory tests and (ii) quantification of contaminant removal based
-    on in-situ respiration rates or off-gas measurements.
+61. **Calculation**\
+    **You will have to complete 2 calculations that may address the following topics: (i) remediation period based on in-situ or laboratory tests and (ii) quantification of contaminant removal based on in-situ respiration rates or off-gas measurements.**
+
+    **Calculation of time needed for site clean-up**:
+
+    - Calculate oxygen consumption rate \[%/d\] using linear regression of linear part of curve at start (make graph - O2 contaminated % against the time)
+    - Calculate biodegradation rate \[mg/kg d\] based on oxygen consumption rate from in situ respiration data using the equation below
+    - Use result to calculate remediation period in years
+
+    $$
+    k_b=\frac{-k_{O2} \cdot Vol_a \cdot d_{O2} \cdot C \cdot 0.01}{d_k}
+    $$
+
+    $$
+    k_b \dots \textrm{biodegradation rate} (mg/kg*d)\\
+    k_{O2} \dots \textrm{oxygen consumption rate} (\%/d)\\
+    Vol_a \dots \textrm{gas filled pore space} (m^3 gas/m^3 soil)\\
+    d_{O2} \dots \textrm{density of oxygen} (mg/L)\\
+    C \dots \textrm{mass ratio hydrocarbon/oxygen for degradation} (1/3.5)\\
+    d_k \dots \textrm{soil bulk density} (g/cm^3)
+    $$
