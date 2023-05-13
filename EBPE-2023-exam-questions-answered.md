@@ -204,7 +204,7 @@ _April 2023_
     - Registry for contaminated sites (Altlastenatlas): historical sites and deposits, that after **investigations and risk assessment** pose a considerable hazard for human health and the environment.
 31. **What sampling strategies are you aware of? For which fields of application / questions are the individual strategies used?**\
     In practice, combinations are used:
-    - Judgemental sampling: relying on expertship instead of statistics - useful to identify hazard source
+    - Judgmental sampling: relying on expertship instead of statistics - useful to identify hazard source
     - Random sampling: useful to verify cleanup, but not if site is heterogeneous
     - Stratified random sampling: subdivisions with random samples - useful to evaluate treatment options by gaining information on chemical properties of each stratum
     - Search sampling: number of samples and grid size based on acceptable level of error - useful to identify hot spots
@@ -270,15 +270,11 @@ _April 2023_
 40. **Explain the meaning of Kd and Koc in terms of their importance for the sorption of organic pollutants in soil?**\
     Solid-water distribution coefficient:
 
-    $$
-    \textrm{K}_\textrm{d} = \textrm{C}_\textrm{S}/\textrm{C}_\textrm{W}
-    $$
+    $$\textrm{K}_\textrm{d} = \textrm{C}_\textrm{S}/\textrm{C}_\textrm{W}$$
 
     Organic carbon normalized solid-water distribution coefficient:
 
-    $$
-    \textrm{K}_\textrm{OC} = \textrm{K}_\textrm{d}/\textrm{f}_\textrm{OC} = \textrm{C}_\textrm{OC}/\textrm{C}_\textrm{W}
-    $$
+    $$\textrm{K}_\textrm{OC} = \textrm{K}_\textrm{d}/\textrm{f}_\textrm{OC} = \textrm{C}_\textrm{OC}/\textrm{C}_\textrm{W}$$
 
     Chemicals associate with solid phase. This is important for bio-availability of soil contaminants. Organic matter (OM) binds pollutants - hydrophobic organic contaminants (HOC). Higher quality OM has stronger sorption strength. Hydrophobicity, reactivity and structure all impact sorption.
 
@@ -288,9 +284,7 @@ _April 2023_
 41. **Provide a general description of the microbial degradation of organic pollutants at aerobic conditions?**\
     Energy produced by transferring electrons from substrate to oxygen. Contaminants (PHCs, PAHs) oxidized to $\textrm{CO}_2$ while oxygen is reduced to water. Respiration is fast & efficient. Solubility of oxygen in water can be limiting.
 
-    $$
-    \textrm{Organic pollutant + O}_2 \rightleftharpoons \textrm{CO}_2 + \textrm{H}_2\textrm{O}
-    $$
+    $$\textrm{Organic pollutant + O}_2 \rightleftharpoons \textrm{CO}_2 + \textrm{H}_2\textrm{O}$$
 
 42. **Provide a general description of the microbial degradation of organic pollutants at anaerobic conditions? Which electron acceptors are used?**\
     If no molecular oxygen is available. Electron acceptors different from oxygen (with increased solubility in water, e.g. nitrate, sulfate). Degradation is usually slower than by respiration and sometimes incomplete. Halogenated hydrocarbons can also act as acceptors, and contaminants (PHCs, PAHs) are oxidized.
@@ -298,7 +292,7 @@ _April 2023_
     - Biodegradability of pollutants, depended on:
       - Chemical structure
       - Concentration
-    - Bioavailability of pollutants, dependend on:
+    - Bioavailability of pollutants, dependent on:
       - Soil characteristics (organic matter)
       - Age of contamination
     - Inhibiting conditions to be avoided:
@@ -347,7 +341,7 @@ _April 2023_
     - **Containment technologies** - pollutants remain at site, cutting of pathways for spreading:
       - Separation of contaminated zone from groundwater body
       - Containment/encapsulation
-      - Stabilisation or solidification, e.g. addition of lime, cement or clay
+      - Stabilization or solidification, e.g. addition of lime, cement or clay
       - Translocation to landfills
     - **Decontamination technologies** - removal of pollutants from site (physical, chemical and/or biological):
       - Thermic treatment
@@ -381,13 +375,7 @@ _April 2023_
     - Clay: $k_f = 10^{-9}\enspace\textrm{m/s} \rightarrow$ practically impermeable
     - Frequently in subsurface: $k_f = 10^{-2} - 10^{-4}\enspace\textrm{m/s}$
 
-    $$
-    k_f = K\cdot\rho\cdot g/\eta \\
-    K \dots \textrm{permeability} \\
-    \rho \dots \textrm{density} \\
-    g \dots \textrm{gravity} \\
-    \eta \dots \textrm{dynamic viscosity}
-    $$
+    $$k_f = K\cdot\rho\cdot g/\eta \\ K \dots \textrm{permeability} \\ \rho \dots \textrm{density} \\ g \dots \textrm{gravity} \\ \eta \dots \textrm{dynamic viscosity}$$
 
     The $k_f$ value depends on the viscosity of the fluid.
 
@@ -449,21 +437,18 @@ _April 2023_
 61. **Calculation**\
     **You will have to complete 2 calculations that may address the following topics: (i) remediation period based on in-situ or laboratory tests and (ii) quantification of contaminant removal based on in-situ respiration rates or off-gas measurements.**
 
+    Calculation steps below are incomplete; make sure to check out the Excel file provided by the lecturer on BokuLearn!
+
     **Calculation of time needed for site clean-up**:
 
     - Calculate oxygen consumption rate \[%/d\] using linear regression of linear part of curve at start (make graph - O2 contaminated % against the time)
     - Calculate biodegradation rate \[mg/kg d\] based on oxygen consumption rate from in situ respiration data using the equation below
     - Use result to calculate remediation period in years
 
-    $$
-    k_b=\frac{-k_{O2} \cdot Vol_a \cdot d_{O2} \cdot C \cdot 0.01}{d_k}
-    $$
+    $$k_b=\frac{-k_{O2} \cdot Vol_a \cdot d_{O2} \cdot C \cdot 0.01}{d_k}$$
 
-    $$
-    k_b \dots \textrm{biodegradation rate} (mg/kg*d)\\
-    k_{O2} \dots \textrm{oxygen consumption rate} (\%/d)\\
-    Vol_a \dots \textrm{gas filled pore space} (m^3 gas/m^3 soil)\\
-    d_{O2} \dots \textrm{density of oxygen} (mg/L)\\
-    C \dots \textrm{mass ratio hydrocarbon/oxygen for degradation} (1/3.5)\\
-    d_k \dots \textrm{soil bulk density} (g/cm^3)
-    $$
+    $$k_b \dots \textrm{biodegradation rate} (mg/kg*d)\\ k_{O2} \dots \textrm{oxygen consumption rate} (\%/d)\\ Vol_a \dots \textrm{gas filled pore space} (m^3 gas/m^3 soil)\\ d_{O2} \dots \textrm{density of oxygen} (mg/L)\\ C \dots \textrm{mass ratio hydrocarbon/oxygen for degradation} (1/3.5)\\ d_k \dots \textrm{soil bulk density} (g/cm^3)$$
+
+    Calculate biodegradation rate constant from half life using exponential function (one phase decay):
+
+    $$\textrm{Y}=\textrm{Y}_0 \cdot \exp(-K \cdot \textrm{X}) + \textrm{Plateau}$$
